@@ -120,8 +120,7 @@ return [
     // ]
     //
     'types' => [
-        'example'           => ExampleType::class,
-        'relation_example'  => ExampleRelationType::class,
+        'user' => App\GraphQL\Types\UserType::class,
     ],
 
     // This callable will be passed the Error object for each errors GraphQL catch.
