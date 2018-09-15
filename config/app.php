@@ -209,8 +209,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        // Packages Facade
-        'GraphQL' => Nuwave\Lighthouse\Support\Facades\GraphQLFacade::class,
+        'GraphQL' => Rebing\GraphQL\Support\Facades\GraphQL::class,
     ],
 
 ];
